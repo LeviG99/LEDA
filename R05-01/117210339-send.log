@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-27T14:07:07.021-0300</date>
+  <logger>LEVI RIOS GOMES</logger>
+  <level>FINE</level>
+  <message>File 117210339-LEVI RIOS GOMES.zip was received. It was sent by LEVI RIOS GOMES from IP 150.165.42.163</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-27T23:18:31.421-0300</date>
+  <logger>LEVI RIOS GOMES</logger>
+  <level>FINE</level>
+  <message>File 117210339-LEVI RIOS GOMES.zip was received. It was sent by LEVI RIOS GOMES from IP 192.168.56.1</message>
+</record>

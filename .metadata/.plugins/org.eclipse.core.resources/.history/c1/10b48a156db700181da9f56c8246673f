@@ -1,0 +1,37 @@
+
+public class QuickSort implements Sorting {
+
+	@Override
+	public void sort(Object[] elements) {
+		quickSort(elements,0,elements.length);
+		
+	}
+	private static void quickSort(Object[] elements, int inicio, int fim) {
+        if (inicio < fim) {
+               int posicaoPivo = separar(elements, inicio, fim);
+               quickSort(elements, inicio, posicaoPivo - 1);
+               quickSort(elements, posicaoPivo + 1, fim);
+        }
+  }
+
+  private static int separar(Object[] elements, int inicio, int fim) {
+        int pivo = (int) elements[inicio];
+        int i = inicio + 1, f = fim;
+        while (i <= f) {
+               if ((int)elements[i] <= pivo)
+                      i++;
+               else if (pivo < (int)elements[f])
+                      f--;
+               else {
+                      int troca = (int)elements[i];
+                      elements[i] = elements[f];
+                      elements[f] = troca;
+                      i++;
+                      f--;
+               }
+        }
+        elements[inicio] = elements[f];
+        elements[f] = pivo;
+        return f;
+  }
+}
